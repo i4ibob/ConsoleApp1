@@ -155,8 +155,8 @@ namespace Lesson
         // вход в программу 
         public static void Main()
         {
-            var Odessa = new City( "Odessa", "Odesskiy", "", 12, 65000, 048);
-            var Kyiv = new City( "Kyiv", "Kyivska", "Ukraine", 5, 24000, 044);
+            var Odessa = new City( "Odessa", "Odesskiy", "", 800054, 65000, 048);
+            var Kyiv = new City( "Kyiv", "Kyivska", "Ukraine", 4000000, 24000, 044);
              var _Cities = new List <City> { Odessa , Kyiv };
             Country ukraine = new Country(_Cities);
 
